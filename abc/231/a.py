@@ -1,2 +1,2 @@
 N = int(input())
-print(N/100)
+print(N / 100)
