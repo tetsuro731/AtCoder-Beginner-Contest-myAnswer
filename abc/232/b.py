@@ -3,9 +3,8 @@ T = input()
 dif = ord(T[0]) - ord(S[0])
 if dif < 0:
     dif += 26
-#print(dif)
-
-#print('i=', i)
+#  print(dif)
+#  print('i=', i)
 str = ''
 for s in S:
     stmp = ord(s) + dif
