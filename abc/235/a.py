@@ -1,0 +1,5 @@
+t = input()
+a = 100 * int(t[0]) + 10 * int(t[1]) + int(t[2])
+b = 100 * int(t[1]) + 10 * int(t[2]) + int(t[0])
+c = 100 * int(t[2]) + 10 * int(t[0]) + int(t[1])
+print(a+b+c)
