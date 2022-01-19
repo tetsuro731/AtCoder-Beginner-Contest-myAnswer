@@ -72,5 +72,5 @@ def bfs(s):
             if dist[nv] == -1:
                 deq.append(nv)
                 dist[nv] = dist[v] + 1
-    return dist.....
+    return dist
 
